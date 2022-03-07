@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Macaksara | Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/gh-pin.css">
+    <script src="https://cdn.statically.io/gh/mack/github-pinner/c6e7b351/GitHubPinner.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="navbar is-transparent is-fixed-top warna-bg">
+  <div class="navbar-brand">
+    <div class="navbar-burger mr-3">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="navbar-item" href="https://github.com/Macaksara" target="_blank">
+                <i class="fab fa-lg fa-github mt-3 is-size-4"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="navbar-item" href="https://github.com/Macaksara" target="_blank">
+              <span class="icon">
+                <i class="fab fa-lg fa-github is-size-4"></i>
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <section class="section" style="margin-bottom: 4em;">
+    <div class="container">
+      <h1 class="title has-text-centered is-uppercase has-text-weight-bold" style="letter-spacing: .17em;">
+        Macaksara
+      </h1>
+      <p class="subtitle has-text-centered">
+        Sebuah komunitas yang mengerjakan projek gabut...<br>Lihat semua projek kami di <a href="https://github.com/Macaksara" target="_blank">
+          <span class="icon">
+            <i class="fab fa-lg fa-github is-size-4"></i>
+          </span>
+          Github
+        </a>
+
+      <div class="columns is-multiline">
+        <div class="column is-4">
+          <div data="https://github.com/Macaksara/wernai" class="github-pinner" style="visibility: hidden;"></div>
+        </div>
+        <div class="column is-4">
+          <div data="https://github.com/Macaksara/macaksara.github.io" class="github-pinner" style="visibility: hidden;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p class="is-italic">
+    <span class="icon">
+      <i class="fa-solid fa-code"></i>
+    </span>
+    Dengan
+    <span class="icon">
+      <i class="fa-solid fa-heart"></i>
+    </span>
+    Oleh
+    <a href="https://jstnlt.my.id" target="_blank" class="has-text-primary">JstnLT.</a>
+  </p>
+    <p>
+     &copy; <span id="thn"></span> <a href="/" target="_blank" class="has-text-primary">Macaksara</a>. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('thn').innerHTML = new Date().getFullYear()
+</script>
+  </body>
+</html>
